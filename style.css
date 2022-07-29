@@ -1,0 +1,60 @@
+body {
+    font-family: "Open sans", sans-serif;
+    color: #000;
+
+}
+
+a {
+    color: black;
+
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+
+}
+
+#header {
+    background: white;
+    padding: 15px;
+
+}
+
+#header.logo {
+    font-size: 28px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#header.logo a {
+    color: aliceblue;
+}
+
+/* navigation menu */
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 22px;
+}
